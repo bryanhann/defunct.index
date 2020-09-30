@@ -1,7 +1,8 @@
 import pytest
 import collections
 import sys
-INDEX='index.txt'
+from pathlib import Path
+INDEX=Path(__file__).parent/'index.txt'
 Entry=collections.namedtuple('indexEntry', 'checksum url')
 
 class UniquenessError(ValueError): pass
