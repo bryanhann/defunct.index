@@ -1,0 +1,3 @@
+pip install --upgrade pip
+pip install -r $PWD/configure/requirements.txt
+source $PWD/configure/activate.sh
