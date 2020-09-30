@@ -1,5 +1,6 @@
 # id of initial commit of repo           # url to that commit
+3eX250bde0e66e6b4cb461f9fd5c8a7659e5f2d9 foo
 3e7250bde0e66e6b4cb461f9fd5c8a7659e5f2d9 https://github.com/bryanhann/prj.translate
-3ex250bde0e66e6b4cb461f9fd5c8a7659e5f2d9 foo
-
+82abc2f7f1abd6c4143a29ad3271bd6b8069becc https://github.com/bryanhann/thedictionary
+f32cac42b2046b1d00be04683d3b6cd95feeb8c5 https://github.com/bryanhann/thetruth
 
