@@ -5,16 +5,13 @@ import repoindex
 
 def main():
     try:
-        print(repoindex.match(ARGS.checksum))
+        print(repoindex.match(ARGS.checksum).url.strip())
     except ValueError:
-        pass
-    matches = repoindex.matches(ARGS.checksum)
-    if len(matches)==1:
-        print(matches[0].url)
-    else:
+        matches = repoindex.matches(ARGS.checksum)
+        message = '%s values' % len(matches)
+        sys.stderr.write(message + '\n')
         for match in matches:
-            sys.stderr.write( repr(match)+'\n'  )
-    return
+            sys.stderr.write(repr(match) + '\n')
 
 
 PARSER=argparse.ArgumentParser(
