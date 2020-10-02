@@ -1,0 +1,1 @@
+grep ^$1 $(dirname $0)/index.txt | cut -c 42-
