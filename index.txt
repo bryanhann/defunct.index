@@ -55,7 +55,7 @@
 82abc2f7f1abd6c4143a29ad3271bd6b8069becc https://github.com/bryanhann/thedictionary
 84efeb9b2b0620e342292322f37935c9f36fac7b https://github.com/bryanhann/r20.activate.omzsh
 8d67064a98e870c823769a411f63ed7e08caf4be https://github.com/bryanhann/bh0.shell.persist
-8efba6bd1ee05ead7b0bac0fc2b3dc86c229a1d5 https://github.com/bryanhann/master-index
+8efba6bd1ee05ead7b0bac0fc2b3dc86c229a1d5 https://github.com/bryanhann/index
 8f36dfac6502fe8422feb4fe0487ef5385038b34 https://github.com/bryanhann/.local.bin
 9ad512e49548efd82d191dbf8aad3c16a291dc72 https://github.com/bryanhann/__defunct__.bh0.__RAW__
 9b8d7eaca2e648cc0635c4a215807f979a790072 https://github.com/bryanhann/bh0.omzsh
