@@ -15,10 +15,10 @@ password = getpass.getpass('password: ')
 hub = Github(args.username,password)
 for repo in hub.get_user().get_repos():
     try:
-        commits = repo.get_commits()
+        initial_commit = list(repo.get_commits())[-1]
     except GithubException:
+        sys.stderr.write('Exception: %s\n' % repo.name)
         continue
-    initial_commit = list(commits)[-1]
     sha = initial_commit.sha
     url = 'https://github.com/bryanhann/%s' % repo.name
     line = '%s %s\n' % (sha,url)
